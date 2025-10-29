@@ -1,6 +1,6 @@
 const website = {
     name: "Trivana Textile",
-    phone: "+12893020086",
+    phone: "+12893020087",
     displayPhone: "+1 (289) 302-0086",
 };
 
