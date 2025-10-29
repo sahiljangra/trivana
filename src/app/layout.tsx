@@ -1,0 +1,31 @@
+import type { Metadata } from "next";
+import "../../public/assets/css/bootstrap.min.css";
+import "../../public/assets/css/bootstrap-icons.css";
+import "../../public/assets/css/animate.min.css";
+import "../../public/assets/css/swiper-bundle.min.css";
+import "react-modal-video/css/modal-video.css";
+import "../../public/assets/css/nice-select.css";
+import "../../public/assets/css/style.css";
+import { dmsans, manrope } from "../fonts/font";
+import ClientRoot from "@/components/ClientRoot";
+export const metadata: Metadata = {
+    title: "Trivana Textile",
+    description: "manufacturer, towels, bath rugs, braided rugs, placemats, poufs, cushions, throws, bath rugs, bags and accessories",
+    icons: {
+        icon: "/assets/img/fav-icon.svg",
+    },
+};
+
+export default function RootLayout({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html className={`tt-magic-cursor ${dmsans.variable} ${manrope.variable}`} lang="en">
+            <body>
+                <ClientRoot>{children}</ClientRoot>
+            </body>
+        </html>
+    );
+}
