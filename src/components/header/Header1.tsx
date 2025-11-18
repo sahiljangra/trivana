@@ -282,7 +282,7 @@ const Header1: React.FC = () => {
                         <ul className="address-area">
                             <li className="single-address">
                                 <span>Factory Location</span>
-                                <a href="#">Mississauga, ON, L4W 1P9</a>
+                                <a href="#">Mississauga, ON</a>
                             </li>
                             {/* <li className="single-address">
                                 <span>WASHINGTON DC</span>

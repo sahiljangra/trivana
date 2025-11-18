@@ -93,7 +93,7 @@ const Footer1: React.FC = () => {
                                             <ul className="address-list mt-5">
                                                 <li className="single-address">
                                                     <span>Mississauga</span>
-                                                    <p className="text-white">Mississauga, ON, L4W 1P9</p>
+                                                    <p className="text-white">Mississauga, ON</p>
                                                 </li>
                                             </ul>                                            
                                         </div>
